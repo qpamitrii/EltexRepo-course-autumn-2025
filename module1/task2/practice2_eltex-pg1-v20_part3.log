@@ -124,12 +124,41 @@ github.com
   - Token scopes: 'gist', 'read:org', 'repo'
 Команда 'gh repo create --public EltexRepo-course-autumn-2025':
 https://github.com/qpamitrii/EltexRepo-course-autumn-2025
-Команда 'mkdir -p /root/EltexRepo-course-autumn-2025 && cd ~/root/EltexRepo-course-autumn-2025':
+Команда 'mkdir -p /root/EltexRepo-course-autumn-2025 && cd /root/EltexRepo-course-autumn-2025':
+echo "Eltex Course Autumn 2025" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/qpamitrii/EltexRepo-course-autumn-2025
+git status
+git push -u origin main
+mkdir -p module1/task1 module1/task2 module1/task3
+
+(скопируйте с сервера для 1 практики отчеты в каталоги task* используя команду scp)
+С 1-го сервера отправляю на 2-й:
+scp /home/eltex-pg1-v20/eltex-pg1-v20_part.log root@172.16.9.194:/root/EltexRepo-course-autumn-2025/module1/task1/
+root@172.16.9.194's password:
+eltex-pg1-v20_part.log                        100% 5018   377.9KB/s   00:00
+scp /home/eltex-pg1-v20/eltex-pg1-v20_part3.log root@172.16.9.194:/root/EltexRepo-course-autumn-2025/module1/task1/
+eltex-pg1-v20_part3.log                       100% 2215    39.7KB/s   00:00
+scp /home/eltex-pg1-v20/eltex-pg1-v20_part3_gt50M.log root@172.16.9.194:/root/EltexRepo-course-autumn-2025/module1/task1/
+eltex-pg1-v20_part3_gt50M.log                 100%  565    48.5KB/s   00:00
+git add .
+git status
+git commit (введите комментарий)
+git push
+
+mkdir ~/EltexRepo-course-autumn-2025_clone && cd ~/EltexRepo-course-autumn-2025_clone
+git clone https://github.com/qpamitrii/EltexRepo-course-autumn-2025
+cd EltexRepo-course-autumn-2025
+git fetch
+git log origin/main
+git diff main origin/main
+git merge origin/main
 cp ~/practice2_eltex-pg1-v20_part1.log module1/task2/
 cp ~/practice2_eltex-pg1-v20_part2.log module1/task2/
 cp ~/practice2_eltex-pg1-v20_part3.log module1/task2/
-
-С 1-го сервера отправляю на 2-й:
-scp /home/eltex-pg1-v20/eltex-pg1-v20_part.log root@172.16.9.194:/root/EltexRepo-course-autumn-2025/module1/task1/
-scp /home/eltex-pg1-v20/eltex-pg1-v20_part3.log root@172.16.9.194:/root/EltexRepo-course-autumn-2025/module1/task1/
-scp /home/eltex-pg1-v20/eltex-pg1-v20_part3_gt50M.log root@172.16.9.194:/root/EltexRepo-course-autumn-2025/module1/task1/
+git add .
+git commit -m "Добавлены отчёты(логи) по практике 2"
+git push
