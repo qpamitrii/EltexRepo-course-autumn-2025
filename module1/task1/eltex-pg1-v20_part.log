@@ -1,0 +1,239 @@
+команда compgen -v HIST
+HISTCMD
+HISTCONTROL
+HISTFILE
+HISTFILESIZE
+HISTSIZE
+команда compgen -c ls:
+ls
+lsblk
+lsattr
+lscpu
+lsipc
+lsmod
+lsmem
+lspci
+lsinitramfs
+lsns
+lsusb
+lsof
+ls
+lslogins
+lsfd
+lslocks
+lsb_release
+lsirq
+lsblk
+lsattr
+lscpu
+lsipc
+lsmod
+lsmem
+lspci
+lsinitramfs
+lsns
+lsusb
+lsof
+ls
+lslogins
+lsfd
+lslocks
+lsb_release
+lsirq
+Команда compgen -v HIST:
+HISTCMD
+HISTCONTROL
+HISTFILE
+HISTFILESIZE
+HISTSIZE
+Команда echo $HISTFILESIZE:
+2000
+Команда ls ~/\.*:
+/home/eltex-pg1-v20/.bash_history
+/home/eltex-pg1-v20/.bash_logout
+/home/eltex-pg1-v20/.bashrc
+/home/eltex-pg1-v20/.lesshst
+/home/eltex-pg1-v20/.log
+/home/eltex-pg1-v20/.profile
+/home/eltex-pg1-v20/.viminfo
+
+/home/eltex-pg1-v20/.config:
+procps
+
+/home/eltex-pg1-v20/.ssh:
+known_hosts
+known_hosts.old
+Команда export HISTTIMEFORMAT="%F %T ":
+Команда history | tail -n 10:
+  209  2025-10-15 20:31:36 cat ${USER}_part.log
+  210  2025-10-15 20:31:57 ( echo Команда 'echo $HISTFILESIZE':; echo $HISTFILESIZE ) >> "${USER}_part.log"
+  211  2025-10-15 20:31:59 cat ${USER}_part.log
+  212  2025-10-15 20:32:58 ( echo Команда 'ls ~/\.*':; ls ~/\.* ) >> "${USER}_part.log"
+  213  2025-10-15 20:32:59 cat ${USER}_part.log
+  214  2025-10-15 20:33:59 history
+  215  2025-10-15 20:34:27 export HISTTIMEFORMAT="%F %T "
+  216  2025-10-15 20:34:33 history
+  217  2025-10-15 20:35:37 ( echo Команда 'export HISTTIMEFORMAT="%F %T "':; export HISTTIMEFORMAT="%F %T " ) >> "${USER}_part.log"
+  218  2025-10-15 20:36:38 ( echo Команда 'history | tail -n 10':; history | tail -n 10 ) >> "${USER}_part.log"
+Команда date:
+Wed Oct 15 08:42:55 PM +07 2025
+Команда history | tail -n 2:
+  227  2025-10-15 20:42:55 ( echo Команда 'date':; date ) >> "${USER}_part.log"
+  228  2025-10-15 20:43:14 ( echo Команда 'history | tail -n 2':; history | tail -n 2 ) >> "${USER}_part.log"
+Команда tail -n 3 ~/.bash_history:
+( echo Команда 'date':; date ) >> "${USER}_part.log"
+#1760535794
+( echo Команда 'history | tail -n 2':; history | tail -n 2 ) >> "${USER}_part.log"
+Команда PROMPT_COMMAND="history -a":
+Команда date:
+Wed Oct 15 08:44:36 PM +07 2025
+Команда history | tail -n 2:
+  231  2025-10-15 20:44:36 ( echo Команда 'date':; date ) >> "${USER}_part.log"
+  232  2025-10-15 20:44:52 ( echo Команда 'history | tail -n 2':; history | tail -n 2 ) >> "${USER}_part.log"
+Команда tail -n 3 ~/.bash_history:
+( echo Команда 'date':; date ) >> "${USER}_part.log"
+#1760535892
+( echo Команда 'history | tail -n 2':; history | tail -n 2 ) >> "${USER}_part.log"
+Команда DATE=$(date +"%Y-%m-%d"):
+Команда echo "$DATE":
+2025-10-15
+Команда echo "$TIME":
+20:51:45
+Команда echo "$DATE_TIME":
+2025-10-15 20:51:45
+Команда ls /bin /sbin | grep [0-9]:
+addr2line
+b2sum
+base32
+base64
+bunzip2
+bzip2
+bzip2recover
+c89
+c89-gcc
+c99
+c99-gcc
+cpan5.36-x86_64-linux-gnu
+cpp-12
+diff3
+enc2xs
+gcc-12
+gcc-ar-12
+gcc-nm-12
+gcc-ranlib-12
+gcov-12
+gcov-dump-12
+gcov-tool-12
+grub-menulst2cfg
+grub-mkpasswd-pbkdf2
+grub-syslinux2cfg
+h2ph
+h2xs
+i386
+linux32
+linux64
+lto-dump-12
+md5sum
+md5sum.textutils
+pdb3
+pdb3.11
+perl5.36.0
+perl5.36-x86_64-linux-gnu
+ping4
+ping6
+pl2pm
+pod2html
+pod2man
+pod2text
+pod2usage
+py3clean
+py3compile
+py3versions
+pydoc3
+pydoc3.11
+pygettext3
+pygettext3.11
+python3
+python3.11
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+ssh-argv0
+systemd-id128
+traceroute6
+traceroute6.db
+x86_64
+x86_64-linux-gnu-addr2line
+x86_64-linux-gnu-ar
+x86_64-linux-gnu-as
+x86_64-linux-gnu-c++filt
+x86_64-linux-gnu-cpp
+x86_64-linux-gnu-cpp-12
+x86_64-linux-gnu-dwp
+x86_64-linux-gnu-elfedit
+x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc-12
+x86_64-linux-gnu-gcc-ar
+x86_64-linux-gnu-gcc-ar-12
+x86_64-linux-gnu-gcc-nm
+x86_64-linux-gnu-gcc-nm-12
+x86_64-linux-gnu-gcc-ranlib
+x86_64-linux-gnu-gcc-ranlib-12
+x86_64-linux-gnu-gcov
+x86_64-linux-gnu-gcov-12
+x86_64-linux-gnu-gcov-dump
+x86_64-linux-gnu-gcov-dump-12
+x86_64-linux-gnu-gcov-tool
+x86_64-linux-gnu-gcov-tool-12
+x86_64-linux-gnu-gold
+x86_64-linux-gnu-gp-archive
+x86_64-linux-gnu-gp-collect-app
+x86_64-linux-gnu-gp-display-html
+x86_64-linux-gnu-gp-display-src
+x86_64-linux-gnu-gp-display-text
+x86_64-linux-gnu-gprof
+x86_64-linux-gnu-gprofng
+x86_64-linux-gnu-ld
+x86_64-linux-gnu-ld.bfd
+x86_64-linux-gnu-ld.gold
+x86_64-linux-gnu-lto-dump
+x86_64-linux-gnu-lto-dump-12
+x86_64-linux-gnu-nm
+x86_64-linux-gnu-objcopy
+x86_64-linux-gnu-objdump
+x86_64-linux-gnu-ranlib
+x86_64-linux-gnu-readelf
+x86_64-linux-gnu-size
+x86_64-linux-gnu-strings
+x86_64-linux-gnu-strip
+dumpe2fs
+e2freefrag
+e2fsck
+e2image
+e2label
+e2mmpstatus
+e2scrub
+e2scrub_all
+e2undo
+e4crypt
+e4defrag
+fsck.ext2
+fsck.ext3
+fsck.ext4
+killall5
+mke2fs
+mkfs.ext2
+mkfs.ext3
+mkfs.ext4
+resize2fs
+tune2fs
+update-grub2
+Команда PS1='\u@\h-\D{%H:%M}> ':
+Команда ' echo PS1=\u@\h-\D{%H:%M}>  >> ~/.bashrc
+': 
+Команда export PS1:
+Команда bash:
+Команда exit:
+Команда eval "mkdir -p ~/{date +%Y)-{01..12}}":

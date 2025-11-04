@@ -1,0 +1,135 @@
+Команда 'git config --global user.name Дмитрий Леонов':
+Команда 'git config --global user.email 6leon4uk6@gmail.com':
+Команда 'git config --global init.defaultBranch main':
+Команда 'git config --global --list':
+user.name=Дмитрий Леонов
+user.email=6leon4uk6@gmail.com
+init.defaultbranch=main
+Команда 'apt update':
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://ru.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://ru.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://ru.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+84 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Команда 'apt install -y git gh':
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+git is already the newest version (1:2.43.0-1ubuntu7.3).
+git set to manually installed.
+The following NEW packages will be installed:
+  gh
+0 upgraded, 1 newly installed, 0 to remove and 84 not upgraded.
+Need to get 8,836 kB of archives.
+After this operation, 45.4 MB of additional disk space will be used.
+Get:1 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gh amd64 2.45.0-1ubuntu0.3 [8,836 kB]
+Fetched 8,836 kB in 1s (11.1 MB/s)
+Selecting previously unselected package gh.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 125206 files and directories currently installed.)
+Preparing to unpack .../gh_2.45.0-1ubuntu0.3_amd64.deb ...
+Unpacking gh (2.45.0-1ubuntu0.3) ...
+Setting up gh (2.45.0-1ubuntu0.3) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+Pending kernel upgrade!
+Running kernel version:
+  6.8.0-55-generic
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-86-generic.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting.
+
+Restarting services...
+
+Service restarts being deferred:
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart getty@tty1.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+Команда 'git --version':
+git version 2.43.0
+Команда 'gh --version':
+gh version 2.45.0 (2025-07-18 Ubuntu 2.45.0-1ubuntu0.3)
+https://github.com/cli/cli/releases/tag/v2.45.0
+Команда 'ssh-keygen -t rsa -b 4096 -f /root/.ssh/qpamitrii -N ':
+Generating public/private rsa key pair.
+Your identification has been saved in /root/.ssh/qpamitrii
+Your public key has been saved in /root/.ssh/qpamitrii.pub
+The key fingerprint is:
+SHA256:ouIAh2LW8nYDaWTqyaurv7Nly6pj0bgtQnOCnT4mpds root@eltex-practice2-pg1-v20
+The key's randomart image is:
++---[RSA 4096]----+
+|                 |
+|                 |
+|   o             |
+| .= .            |
+|=*+*  . S        |
+|OBOo.. .         |
+|oBOo+o           |
+|=BB*...          |
+|@XE*o            |
++----[SHA256]-----+
+Команда 'cat /root/.ssh/qpamitrii.pub':
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC36/45eQe0ToehQ7XC3OKCBFnY4zJS26gla0WKl6Gjrmt8kBWYH4t9xDbTDrR8g7yFfyrJLppgjVcHzCZ+ihBcdRvmtHOr1ISKrItKweIggrgJL5cDQ6eaBo6VpFHWieHvNrQSakA3lr1OoL7hXZsOuDh5CXHqjuJWmIdfHigoSLPQhwJpOa2nxo3EElZDUKcE+AOcgskTceY+3aSXBDRhK0rlR0prfWdNcIHUBDtFA0nFZO1vNCuyuWtD8yEkSmhyUcG5zu6x6KvJEHUOG+YwaDDbGh+Cn8mby7LaxxTA8cKvXYuUOfQKKbQ8SNt/M4No81V1tjehBOq4C5VClfGzXqYMzurEZJ2MRvSL3nmPYEA8AgdvbniAttB9SOjdf2jow/y0bZWaTmQMyf0+bZrqdqtI2Ttais4x3TU+rMdc74u6+nT4w1JXvJQlwXxgdOfrbkLXjc4ehOaaSo0Wr+KJiCDSx3c/mzI/TbOFxsa0Lg0iQeNik7HHPsqZUrV3S4HYCROMV+L+/AlK7T11/Vn8i8bg9J7T51cwFt7or3TmHRdjS8rQd1YAFGpdJgmyH1gbQvnYuY3Ab8qcEYhIpCESOCE6uEmP2CJx4Q+snIcWXp1X4VxhYMXLAkYO35cp3YbZiMduzL6noy+x7Q3MEGYYgP0qZSBAdqgAWVkaDMlUxw== root@eltex-practice2-pg1-v20
+Команда 'gh auth login':
+
+! First copy your one-time code: A02F-51A9
+Open this URL to continue in your web browser: https://github.com/login/device
+✓ Authentication complete.
+! Authentication credentials saved in plain text
+✓ Logged in as qpamitrii
+Команда 'gh auth setup-git --hostname github.com':
+Команда 'gh auth status':
+github.com
+  ✓ Logged in to github.com account qpamitrii (/root/.config/gh/hosts.yml)
+  - Active account: true
+  - Git operations protocol: https
+  - Token: gho_************************************
+  - Token scopes: 'gist', 'read:org', 'repo'
+Команда 'gh repo create --public EltexRepo-course-autumn-2025':
+https://github.com/qpamitrii/EltexRepo-course-autumn-2025
+Команда 'mkdir -p /root/EltexRepo-course-autumn-2025 && cd ~/root/EltexRepo-course-autumn-2025':
+cp ~/practice2_eltex-pg1-v20_part1.log module1/task2/
+cp ~/practice2_eltex-pg1-v20_part2.log module1/task2/
+cp ~/practice2_eltex-pg1-v20_part3.log module1/task2/
+
+С 1-го сервера отправляю на 2-й:
+scp /home/eltex-pg1-v20/eltex-pg1-v20_part.log root@172.16.9.194:/root/EltexRepo-course-autumn-2025/module1/task1/
+scp /home/eltex-pg1-v20/eltex-pg1-v20_part3.log root@172.16.9.194:/root/EltexRepo-course-autumn-2025/module1/task1/
+scp /home/eltex-pg1-v20/eltex-pg1-v20_part3_gt50M.log root@172.16.9.194:/root/EltexRepo-course-autumn-2025/module1/task1/
