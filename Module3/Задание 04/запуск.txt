@@ -1,0 +1,19 @@
+./code
+gcc -o code source2.c
+
+Тесты:
+> ls
+> pwd
+> sum 1 2 3 4
+> longest apple banana cherry
+> hello World!
+> exit
+
+Вывод в файл:
+ls -l > out.txt
+Ввод из файла (предварительно создайте файл):
+wc -l < out.txt
+Конвейер (Pipe):
+ls -l | grep r | wc -l
+Комбинация:
+ls -l | grep r > result.txt

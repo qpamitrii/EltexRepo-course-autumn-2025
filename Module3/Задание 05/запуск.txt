@@ -1,0 +1,4 @@
+./code
+gcc -o code source.c
+
+Тесты:

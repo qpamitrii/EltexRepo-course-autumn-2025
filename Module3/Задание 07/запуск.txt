@@ -1,0 +1,7 @@
+Для очередей POSIX нужно линковать 
+библиотеку реального времени (librt), поэтому добавляем флаг -lrt.
+gcc client1.c -o client1 -lrt
+gcc client2.c -o client2 -lrt
+
+./client1
+./client2

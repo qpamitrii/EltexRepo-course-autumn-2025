@@ -1,0 +1,14 @@
+gcc tcp_server.c -o server
+gcc tcp_client.c -o client
+
+./server 5000
+./client localhost 5000
+
+
+Client> 10 + 20
+Server> Result: 30.00
+Client> 100 / 4
+Server> Result: 25.00
+
+Client> file test.txt
+Client> quit

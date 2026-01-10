@@ -1,0 +1,2 @@
+gcc razdel_memory.c -o code
+./code

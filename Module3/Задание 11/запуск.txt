@@ -1,0 +1,4 @@
+gcc rezdel_memory_posix.c -o code -lrt
+./code
+
+ls -l /dev/shm/

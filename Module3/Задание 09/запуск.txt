@@ -1,0 +1,2 @@
+gcc semaphore_posix.c -o posix_sem -pthread
+./posix_sem

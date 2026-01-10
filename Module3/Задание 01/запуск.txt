@@ -1,0 +1,2 @@
+gcc cource1.c -o code
+./code 10 abc -5.5 def 100

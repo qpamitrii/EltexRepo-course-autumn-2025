@@ -1,0 +1,7 @@
+gcc server_select.c -o server
+
+./server
+
+запуск 2-х клиентов
+./client localhost 8080
+./client localhost 8080

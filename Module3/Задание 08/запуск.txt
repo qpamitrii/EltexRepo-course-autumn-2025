@@ -1,0 +1,7 @@
+gcc producer.c -o prod
+gcc consumer.c -o cons
+
+./prod myfile.txt
+./cons myfile.txt
+Запуск Потребителя 2 (Терминал 3):
+./cons myfile.txt

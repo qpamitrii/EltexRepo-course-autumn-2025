@@ -1,0 +1,9 @@
+./code
+
+Тесты:
+> ls
+> pwd
+> sum 1 2 3 4
+> longest apple banana cherry
+> hello World!
+> exit

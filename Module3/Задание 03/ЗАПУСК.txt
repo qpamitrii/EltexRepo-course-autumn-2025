@@ -1,0 +1,4 @@
+make
+make run
+
+gcc -o code source3.c

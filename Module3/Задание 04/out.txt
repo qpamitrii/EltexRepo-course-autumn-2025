@@ -1,0 +1,14 @@
+total 84
+-rwxrwxrwx 1 qpamitrii qpamitrii 17264 Jan  8 17:50 code
+-rwxrwxrwx 1 qpamitrii qpamitrii     0 Nov 27 16:33 empty.txt
+-rwxrwxrwx 1 qpamitrii qpamitrii     0 Nov 27 16:30 files.txt
+-rwxrwxrwx 1 qpamitrii qpamitrii 16000 Nov 20 16:20 hello
+-rwxrwxrwx 1 qpamitrii qpamitrii   254 Nov 20 16:20 hello.c
+-rwxrwxrwx 1 qpamitrii qpamitrii    13 Nov 27 16:33 input.txt
+-rwxrwxrwx 1 qpamitrii qpamitrii 16048 Nov 20 16:15 longest
+-rwxrwxrwx 1 qpamitrii qpamitrii   664 Nov 20 16:15 longest.c
+-rwxrwxrwx 1 qpamitrii qpamitrii     0 Jan  8  2026 out.txt
+-rwxrwxrwx 1 qpamitrii qpamitrii  8569 Jan  8 17:49 source2.c
+-rwxrwxrwx 1 qpamitrii qpamitrii 16000 Nov 20 16:15 sum
+-rwxrwxrwx 1 qpamitrii qpamitrii   285 Nov 20 16:09 sum.c
+-rwxrwxrwx 1 qpamitrii qpamitrii   374 Jan  8 17:50 запуск.txt

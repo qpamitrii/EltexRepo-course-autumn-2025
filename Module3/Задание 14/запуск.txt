@@ -1,0 +1,8 @@
+gcc raw_sniffer.c -o sniffer
+
+sudo ./sniffer
+
+Терминалы 2
+./chat 8000 8001
+и 3
+./chat 8001 8000
