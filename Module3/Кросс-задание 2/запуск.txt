@@ -1,0 +1,13 @@
+gcc main.c -o taxi_system
+
+./taxi_system
+
+create_driver
+
+2 аргумента: Pid и время
+send_task
+
+1 аргумент: pid
+get_status
+
+get_drivers
