@@ -1,0 +1,19 @@
+make
+sudo insmod ip_filter.ko
+
+ls -l /proc/ip_filter
+
+ping 8.8.8.8
+Заблокировать ip:
+sudo sh -c 'echo "add 8.8.8.8" > /proc/ip_filter'
+cat /proc/ip_filter
+
+ping 8.8.8.8
+sudo dmesg
+
+Разблокировать ip:
+sudo sh -c 'echo "del 8.8.8.8" > /proc/ip_filter'
+
+
+Выгрузка модуля из ядра для смены кода или остановки:
+sudo rmmod ip_filter
